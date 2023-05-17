@@ -1,13 +1,90 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* ---------------------- */
+/* Reset */
+/* ---------------------- */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
+    white-space: pre-line;
+}
+
+body,
+#root {
+    min-height: 100vh;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+    border: none;
+    outline: none;
+}
+
+img {
+    display: block;
+    align-self: center;
+}
+
+button {
+    display: block;
+    background: none;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: none;
+}
+
+/* ---------------------- */
+/* Fonts */
+/* ---------------------- */
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+:root {
+    font-family: "Inter", sans-serif;
+}
+
+/* ---------------------- */
+/* Variables */
+/* ---------------------- */
+
+:root {
+    --primary-color-1: #f26259;
+
+    --secondary-color-1: #0a2f52;
+    --secondary-color-2: #092742;
+    --secondary-color-3: #1a2229;
+    --secondary-color-4: #2e3c48;
+    --secondary-color-5: #3b4b58;
+    --secondary-color-6: #a8b8c7;
+    --secondary-color-7: #5d7387;
+    --secondary-color-8: #839aae;
+
+    --white: #ffffff;
+
+    --alert-color-1: #e45858;
 }
